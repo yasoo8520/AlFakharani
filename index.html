@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>AlFakharani</title>
+</head>
+<body>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            var loadingDiv = document.getElementById('loading');
+            loadingDiv.style.display = 'block';
+
+            setTimeout(function () {
+                loadingDiv.style.display = 'none';
+                var contentDiv = document.getElementById('content');
+                contentDiv.style.display = 'block';
+            }, 3000);
+        });
+    </script>
+    <div class="blur-background">
+
+    </div>
+    <div style="width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              overflow: auto; z-index:0">
+
+        <div id="loading" style="position: relative;
+                        background-color: black;
+                        width: 100%;
+                        height: 100%;">
+            <img id="logo" src="logo.jpeg" alt="AlFakharani Logo" style="position: absolute;
+                                                      top: 50%;
+                                                      left: 50%;
+                                                      transform: translate(-50%, -50%);
+                                                      width: 100px;
+                                                      height: 100px;
+                                                      animation: zoomEffect 3s infinite alternate;" />
+        </div>
+        <div id="content" style="display: none;
+                                  height: auto;
+                                  width: 100%;
+                                  max-width: 600px;
+                                  margin: auto;
+                                  padding: 10px; ">
+            <div class="mt-5 z-0">
+                <div class="card card-clean">
+                    <div class="card-img-top">
+                        <img src="logo.jpeg" alt="AlFakharani Logo" style="width:100%;height:200px;" />
+
+                        <div class="bg-secondary w-100 p-3 text-center">
+                            <h4 class="text-white">
+                                طرق التواصل معنا وتواجدنا على السوسيال ميديا
+                                <img src="happiness.png" alt="Happy Face" style="width:50px;height:50px;" />
+                            </h4>
+                            <h6>
+                                هذه هي الصفحات الرسميه والمنصه الرسمية للأستاذ أحمد الفخراني
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="card-body" style="background-color:lightgray">
+                        <ul class="nav d-flex align-items-center justify-content-center">
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.moutez.alfakharani&hl=en_US&pli=1">
+                                    <img src="googleplay.png" alt="AlFakharani google play app" style="width:100px;height:100px;">
+                                    <p style="color:dimgray"><b>منصة المستر على جوجل بلاي</b></p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="https://apps.apple.com/us/app/alfakharany-physics/id6460891705">
+                                    <img src="appstore.png" alt="AlFakharani apple store app" style="width:100px;height:100px;">
+                                    <p style="color:dimgray"><b>منصة المستر على ستور الأيفون</b></p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="https://www.facebook.com/Elfakhranyphysics">
+                                    <img src="facebook.png" alt="AlFakharani Facebook page" style="width:100px;height:100px;">
+                                    <p style="color:dimgray"><b>صفحتنا على فيسبوك</b></p>
+                                </a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" href="https://www.youtube.com/@MrAhmed-ElFakharany">
+                                    <img src="youtube.png" alt="AlFakharani youtube channel" style="width:100px;height:100px;">
+                                    <p style="color:dimgray"><b>قناتنا على اليوتيوب</b></p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .blur-background {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                overflow: auto;
+                background-image: url('logo.jpeg');
+                background-size: cover;
+                filter: blur(8px);
+                -webkit-filter: blur(8px);
+                z-index: -1;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+
+            @keyframes zoomEffect {
+                0% {
+                    transform: translate(-50%, -50%) scale(1);
+                }
+
+                50% {
+                    transform: translate(-50%, -50%) scale(1.5);
+                }
+
+                100% {
+                    transform: translate(-50%, -50%) scale(1);
+                }
+            }
+        </style>
+
+
+    </div>
+</body>
+</html>
